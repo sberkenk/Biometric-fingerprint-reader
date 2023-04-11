@@ -43,6 +43,6 @@ if __name__ == '__main__':
     users: list = Database.load_db()
 
     # Initalizating the Board
-    board = Board('COM3', 9600)
+    board = Board('COM7', 9600)
     board.add_predicate(handle_id)
     board.start()

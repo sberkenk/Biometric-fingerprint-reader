@@ -80,7 +80,7 @@ if __name__ == '__main__':
         for predicate in board.get_predicates():
             predicate()
 
-    board = Board('COM3', 9600)
+    board = Board('COM7', 9600)
     show_predicates()
 
     # Adding a new predicate

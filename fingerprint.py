@@ -116,8 +116,8 @@ if __name__ == '__main__':
     Database = ConnectionDB(PATH)
     users: list = Database.load_db()
 
-    board = 0
+    board = 1
     # Initalizating the Board
-    board = Board('COM3', 9600)
+    board = Board('COM7', 9600)
     board.add_predicate(handle_information)
     board.start(350)
